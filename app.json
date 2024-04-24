@@ -1,8 +1,8 @@
 {
-    "name": "Romeo-Userbot",
+    "name": "dxLucky-Userbot",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/RRomeo-RJ/Romeo-UserBot",
+    "repository": "https://github.com/DED-LEGEND/DxUserbot",
   "stack": "container",
     "env": {
         "STRING_SESSION": {
