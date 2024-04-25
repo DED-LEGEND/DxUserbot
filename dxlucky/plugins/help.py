@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Romeo import SUDO_USER
+from dxlucky import SUDO_USER
 from config import *
 
 R = "DX-LEGEND COMMAND"
