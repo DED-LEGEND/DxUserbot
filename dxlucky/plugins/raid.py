@@ -5,8 +5,8 @@ from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Romeo import SUDO_USER
-from Romeo.helper.data import *
+from dxlucky import SUDO_USER
+from dxlucky.helper.data import *
 
 
 @Client.on_message(filters.command(["raid", "r"], ".") & (filters.me | filters.user(SUDO_USER)))
