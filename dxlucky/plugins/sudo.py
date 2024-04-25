@@ -1,6 +1,6 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from Romeo import SUDO_USER
+from dxlucky import SUDO_USER
 
 @Client.on_message(filters.command(["addsudo", "asd"], ".") & (filters.me | filters.user(SUDO_USER)))
 async def addsudo(client: Client, message: Message):
