@@ -1,7 +1,7 @@
 import asyncio
 import importlib
 from pyrogram import Client, idle
-from Romeo import client, app
+from dxlucky import client, app
 
 async def start_bot():
     await app.start()
