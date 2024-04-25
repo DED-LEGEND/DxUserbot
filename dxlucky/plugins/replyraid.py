@@ -1,8 +1,8 @@
 from random import choice
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from Romeo.helper.data import RAID, VERIFIED_USERS, GROUP
-from Romeo import SUDO_USER
+from dxlucky.helper.data import RAID, VERIFIED_USERS, GROUP
+from dxlucky import SUDO_USER
 
 ACTIVATE_RLIST = []
 
