@@ -2,8 +2,8 @@ import asyncio
 from requests import get
 from pyrogram import Client, enums, filters
 from pyrogram.types import Message
-from Romeo.helper.data import *
-from Romeo import SUDO_USER
+from dxlucky.helper.data import *
+from dxlucky import SUDO_USER
 
 def get_arg(message: Message):
     msg = message.text
