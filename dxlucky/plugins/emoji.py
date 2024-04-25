@@ -1,7 +1,7 @@
 from pyrogram import *
 from pyrogram.types import *
-from Romeo import SUDO_USER
-from Romeo.helper.basic import edit_or_reply, get_text
+from dxlucky import SUDO_USER
+from dxlucky.helper.basic import edit_or_reply, get_text
 
 
 rtext = [
